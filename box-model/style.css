@@ -1,0 +1,138 @@
+/* h1{ */
+  /* background-color: red; */
+  /* background-color: #ff0000; */
+  /* background-color: rgb(255, 0, 0); */
+  /* background-color: rgba(255, 0, 0, .1); */
+/* } */
+
+h1{
+  text-shadow: -6px 1px 1px rgba(0,0,0,0.41);
+}
+
+/* body{ */
+  /* background: #050505;
+  background: linear-gradient(90deg,#050505 0%, #3535e1 80%);
+  background: -webkit-linear-gradient(90deg,#050505 0%, #3535e1 80%);
+  background: -moz-linear-gradient(90deg,#050505 0%, #3535e1 80%); */
+/* } */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container{
+  background-color: red;
+  height: 600px;
+  width: 900px;
+  border: 6px solid blue;
+  /* padding: 10px; */
+  /* border: 6px dotted blue; */
+  /* border: 6px dashed blue; */
+  /* border: 6px double blue; */
+  /* border: 6px hidden blue; */
+  /* border: 6px none blue; */
+  /* padding: 100px; */
+  /* padding-top: 100px; */
+  /* padding-left: 100px; */
+  /* padding-right: 100px; */
+  /* padding-bottom: 100px; */
+  /* padding: 100px 50px 25px 12px; */
+  /* margin-top: 200px; */
+  /* margin-left: 200px; */
+  /* margin-right: 200px; */
+  /* margin-bottom: 200px; */
+  /* margin: 100px 50px 25px 12px; */
+  margin: 50px auto;
+  /* box-shadow: 5px 10px 8px #888888; */
+  box-shadow: 16px 14px 38px 4px rgba(0,0,0,0.67);
+  border-radius: 45px 45px 45px 45px;
+  overflow: hidden;
+
+}
+
+.primer-span{
+  background-color: green;
+  width: 50%;
+  height: 100px;
+  /* float: left; */
+  /* display: inline-block; */
+  /* margin-bottom: 300px; */
+  display: inline-block;
+  padding: 10px;
+}
+
+.segundo-span{
+  background-color: black;
+  color: white;
+  /* width: 200px; */
+  width: 50%;
+  height: 100px;
+  /* float: left; */
+  display: inline-block;
+  /* margin-top: 50px; */
+}
+
+
+.cuadro-texto{
+  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-left: 200px;
+  border: 3px solid  black;
+  width: 300px;
+  height: 150px;
+  /* overflow: hidden; */
+  /* overflow: auto; */
+  /* overflow: visible; */
+  overflow: scroll;
+}
+
+
+.inline{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: yellow;
+  display: inline;
+}
+
+.inline-block{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  background-color: cyan;
+  display: inline-block;
+}
+
+.block{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  background-color: purple;
+  display: block;
+}
+
+
+.imagen{
+  /* margin: 30px auto; */
+  margin-left: 280px;
+  box-shadow: -25px 31px 21px 9px rgba(0,0,0,0.67);
+  width: auto;
+  border: 13px inset #939393;
+  filter: blur(8px) brightness(88%) saturate(93%) contrast(129%) invert(11%);
+}
+
+.imagen:hover{
+  filter: brightness(88%) saturate(93%) contrast(129%) invert(11%);
+}
+
+
+
+
+.span:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}

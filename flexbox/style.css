@@ -1,0 +1,68 @@
+.container{
+  width: 90%;
+  height: 90vh;
+  background-color: #ccc;
+  border: 1px solid black;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+  /* justify-content: flex-start; */
+  /* justify-content: center; */
+  /* justify-content: flex-end; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* align-items: stretch; */
+  /* align-items: flex-start; */
+  /* align-items: center; */
+  /* align-items: flex-end; */
+  /* align-items: baseline; */
+  /* align-content: center; */
+}
+
+div{
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rojo{
+  background-color: red;
+  /* order: 3; */
+}
+
+.azul{
+  background-color: blue;
+  /* width: 250px; */
+  /* height: 200px; */
+  /* order: 2; */
+}
+
+.verde{
+  background-color: green;
+  /* order: 4; */
+}
+
+.cyan{
+  background-color: cyan;
+  /* order: 1;  */
+}
+
+
+.section{
+  border: 1px solid black;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 10px;
+}

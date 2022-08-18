@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #e6e6e6;
+}
+
+.header, .main, .footer{
+  width: 90%;
+  margin: 20px auto;
+}
+
+.header .nav{
+  background-color: #528fd5;
+}
+
+.header .nav ul{
+  list-style: none;
+  overflow: hidden;
+}
+
+.header .nav ul li{
+  /* display: inline-block; */
+  float: left;
+}
+
+.header .nav ul li a{
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.header .nav ul li a:hover{
+  background-color: #75acec;
+  font-size: 20px;
+}
+
+.articles{
+  width: 68.5%;
+  float: left;
+  margin-right: 1.5%;
+}
+
+.articles article{
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 10px 10px 26px 9px rgba(0,0,0,0.46);
+  border-radius: 27px 27px 27px 27px;
+}
+
+.aside{
+  background-color: #ff8000;
+  width: 30%;
+  float: left;
+  padding: 20px;
+  box-shadow: 10px 10px 26px 9px rgba(0,0,0,0.46);
+  border-radius: 27px 27px 27px 27px;
+}
+
+.aside h3, .aside p{
+  margin: 10px;
+  text-align: center;
+}
+
+
+.footer{
+  background-color: black;
+  clear: both;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#contacto{
+  background-image: url('./galaxy.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.aside .figure, .aside .parrafo{
+  float: left;
+}
