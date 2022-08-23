@@ -123,3 +123,87 @@ const evaluarEdad = () => {
 //   : console.log('Eres menor de edad no te podemos vender nada :(')
 
 
+
+// Bucles  (for)
+
+// for(inicializacion; limite; incremento){
+//   ejecucion
+// }
+
+// for(let i = 0; i <= 3; i = i + 1){
+//   console.log(i)
+// }
+
+//  i 
+
+//  0, 1, 2, 3, 4
+
+
+// console.log(palabra[0]) // H
+// console.log(palabra[1]) // o
+// console.log(palabra[2]) // l
+// console.log(palabra[3]) // a
+
+// Quiero saber si hay una letra a en esta palabra y quiero que me muestre un msj que si la encontro
+
+// posicion visual   4
+               //1234
+// const palabra = 'Hola Mundo! ana maria'; //  valor palabra[i]  20
+               //0123     posicion   i
+// posicion logica
+
+// i, 0, 1, 2, 3... 12, 13, 14
+
+// for(let i = 0; i < palabra.length; i++){
+//   const letra = palabra[i]; // a
+//   if(letra === 'a'){
+//     console.log(`La letra a se encuentra en la posicion ${i}`)
+//   }
+// }
+
+// While
+
+// for(let i = 0; i <= 3; i++){
+//   console.log(i)
+// }
+
+// let i = 0; 
+
+// while(i < palabra.length){
+// const letra = palabra[i]; // a
+//   if(letra === 'a'){
+//     console.log(`La letra a se encuentra en la posicion ${i}`)
+//   }
+//   i++
+// }
+
+
+// estaEnRango(valor, minimo, maximo)
+// Crear una función estaEnRango que tome como argumentos tres números, un valor, un número minimo y un número maximo, y devuelva true si el valor se encuentra entre los números minimo y maximo o false si no (si el valor es igual a uno de los extremos se considera que está dentro del rango)
+
+
+// const estaEnRango = (valor, minimo, maximo) => {
+//   if(valor >= minimo && valor <= maximo){
+//     return  true
+//   } else {
+//     return false
+//   }
+// }
+
+// console.log(estaEnRango(3, 1, 10) )  // true
+// console.log(estaEnRango(1, 1, 10) )  // true
+// console.log(estaEnRango(10, 1, 10))  // true
+// console.log(estaEnRango(12, 1, 10))  // false
+// console.log(estaEnRango(-3, 1, 10))  // false
+
+// 🔢 Números impares
+// Crear un programa que muestre en consola los números impares entre el 0 y el 20
+const sacarnumeroImpares = () => {
+  for(let i = 0; i <= 20; i++){
+    if(i % 2 !== 0){
+      console.log(i);
+    }
+  }
+}
+
+sacarnumeroImpares();
