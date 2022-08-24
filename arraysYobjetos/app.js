@@ -67,4 +67,54 @@
 // console.log(root)
 
 
-// 
+// const estudiantes = [{Daniela}, {Débora}, '{Miriam}', '{Romina}', 'Vivana', 'Jonh'];
+
+
+//  Objetos
+
+const estudiantes = [
+  {
+    nombre: 'Daniela',
+    apellido: 'justiniano',
+    edad: 25,
+    esEstudiante: true,
+    comision: 'julio',
+    peliculas: ['Spiderman', 'Ironman', 'Volver al futuro'],
+    mascota: {
+      nombre: 'firulais',
+      color: 'Blanco',
+      edad: 3,
+      raza: 'Dogo'
+    }
+  },
+  {
+    nombre: 'Débora',
+    apellido: 'Mamani',
+    edad: 28,
+    esEstudiante: true,
+    comision: 'julio',
+    peliculas: ['Harrypotter', 'Harrypotter2', 'Harrypotter3'],
+    mascota: {
+      nombre: 'Chester',
+      color: 'Negro',
+      edad: 1,
+      raza: 'Pitbull'
+    }
+  },
+  {
+    nombre: 'Miriam',
+    apellido: 'Olmedo',
+    edad: 26,
+    esEstudiante: true,
+    comision: 'julio',
+    peliculas: ['Depredador', 'Prey', 'Conan'],
+    mascota: {
+      nombre: '',
+      color: '',
+      edad: undefined,
+      raza: ''
+    }
+  },
+]
+
+console.log(estudiantes[2].mascota.raza)
