@@ -104,6 +104,7 @@ enviarForm.addEventListener('click', () => {
 // firstName.addEventListener('keydown', () => { // detecta cuando la tecla esta siendo apretada
 //   console.log(firstName.value)
 // })
+
 // firstName.addEventListener('keypress', () => { // detecta cuando la tecla esta siendo apretada
 //   console.log(firstName.value)
 // })
