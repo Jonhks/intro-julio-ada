@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Clases y Eventos</title>
+</head>
+<body id="body">
+
+  <nav>
+    <div class="nav-wrapper mi-clase">
+      <a href="#" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li id="dark-mode"><a href="#">Dark-mode</a></li>
+        <li id="home-btn"><a href="#">Home</a></li>
+        <li id="about-btn"><a href="#">About</a></li>
+        <li id="contact-btn"><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <h1>Clases y eventos</h1>
+<!-- 
+  <p id="primero">Lorem, Este es el parrafo con el ID primero.</p>
+  <p class="elegido">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, eius.</p>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, eius.</p>
+  <p class="elegido">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, eius.</p>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, eius.</p>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, eius.</p>
+  <p class="elegido">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, eius.</p>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, eius.</p>
+
+  <h3 class="elegido">Este es el h3</h3> -->
+
+
+  <div id="home">
+    <h2>Esta es la pagina de home</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium rem non consequatur quos, optio, vitae quae velit similique at nam exercitationem recusandae minus magni maiores. Sapiente suscipit corporis pariatur earum?</p>
+    <figure>
+      <img src="./home.jpg" alt="Perritos">
+    </figure>
+  </div>
+
+  <div id="about" class="oculto">
+    <h2>Esta es la pagina de About</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium rem non consequatur quos, optio, vitae quae velit similique at nam exercitationem recusandae minus magni maiores. Sapiente suscipit corporis pariatur earum?</p>
+    <figure>
+      <img src="./about.jpg" alt="Perritos">
+    </figure>
+  </div>
+
+  <div id="contact" class="oculto">
+    <h2>Esta es la pagina de contact</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium rem non consequatur quos, optio, vitae quae velit similique at nam exercitationem recusandae minus magni maiores. Sapiente suscipit corporis pariatur earum?</p>
+    <figure>
+      <img src="./contact.jpg" alt="Perritos">
+    </figure>
+    <div class="form">
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="input-field col s12">
+            <select id="paises">
+              <option value="" disabled selected>Pais</option>
+              <option value="argentina">Argentina</option>
+              <option value="colombia">Colombia</option>
+              <option value="mexico">México</option>
+            </select>
+            <label>De que pais eres</label>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="textarea1">Mensaje</label>
+            </div>
+          </div>
+          <p>
+            <label>
+              <input id="terminos" type="checkbox" />
+              <span>Terminos y condiciones</span>
+            </label>
+          </p>
+          <button id="enviar-form" class="btn waves-effect waves-light" type="button" name="action">Enviar
+            <i class="material-icons right">send</i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

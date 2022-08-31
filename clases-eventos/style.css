@@ -1,0 +1,50 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rojo{
+  color: red;
+  font-size: 2rem;
+}
+
+.azul{
+  color: blue;
+  font-size: 1.5rem;
+}
+
+.green{
+  color: green;
+}
+
+.mi-clase{
+  background-color: black;
+}
+
+.oculto{
+  display: none !important;
+}
+
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+
+.form{
+  width: 60%;
+  height: 80vh;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  box-shadow: 17px 30px 18px 0px rgba(0,0,0,0.66);
+  border: .5px solid #ccc;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px;
+ }
