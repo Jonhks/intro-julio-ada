@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+  crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css">
+  <title>Rick and Morty</title>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-wrapper color-black">
+      <a href="#" class="brand-logo">Rick And Morty</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li id="todos"><a>Todos</a></li>
+        <li id="mujeres"><a>Mujeres</a></li>
+        <li id="hombres"><a>Hombres</ahref=></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container-fuid">
+    <div id="contenedor" class="contenedor">
+      <span class="loader"></span>
+    </div>
+    <div id="root" class="row esconder">
+   
+    </div>
+  </main>
+
+  <div class="container-paginador">
+    <p>Pagina actual: <span id="pagina-actual"></span></p>
+    <p>Total de paginas: <span id="total-paginas"></span></p>
+  </div>
+
+  <div class="pagination">
+    <button type="button" id="first-page" class="first-page pagination-button" aria-label="Página previa">
+      <i class="fas fa-angle-double-left" aria-hidden="true"></i>
+    </button>
+    <button type="button" id="previus-page" class="previous-page pagination-button" aria-label="Página Anterior">
+      <i class="fas fa-angle-left" aria-hidden="true"></i>
+    </button>
+    <button type="button" id="next-page" class="next-page pagination-button" aria-label="Siguiente ´Página">
+      <i class="fas fa-angle-right" aria-hidden="true"></i>
+    </button>
+    <button type="button" id="last-page" class="last-page pagination-button" aria-label="Última página">
+      <i class="fas fa-angle-double-right" aria-hidden="true"></i>
+    </button>
+  </div>
+
+  <footer class="page-footer color-black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer</h5>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2022 Copyright Jonh-Parra 😎
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
